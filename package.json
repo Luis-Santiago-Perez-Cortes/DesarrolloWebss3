@@ -1,0 +1,14 @@
+{
+  "name": "desarrolloweb2",
+  "version": "1.0.0",
+  "description": "Proyecto Web",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --incluide-path sass ./sass/index.scss css/style.css -w"
+  },
+  "author": "Santiago",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

@@ -1,0 +1,49 @@
+.header{
+    background-color: $bgDark;
+    color: $fontLight;
+    padding: 30px 20px;
+
+
+&__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+&-title{
+    color: #22c55e;
+
+&:hover::after {
+    content: 'inicio';
+    margin-left: 8px;
+    font-size: 15px
+    color #e2e8f0
+   }
+
+  }
+
+ }
+
+}
+
+.content__navbar li:active{
+    transform: scale(0.9);
+}
+
+.content__navbar li a {
+    color: #e2e8f0;
+    font-weight: bold;
+}
+
+.content__navbar li a:hover {
+    color: #22c55e;
+}
+
+$color3: (
+    primary:#449944,
+    secondary:red 
+ )
+
+
+h1{
+    color: map-get($color3, secondary);
+}
